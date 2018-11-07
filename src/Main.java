@@ -9,7 +9,7 @@ public class Main {
         System.out.println("\nPlease enter an item name or item id:\n\n");
         while (scan.hasNextLine()) {
             String line = scan.nextLine().toLowerCase();
-            ///System.out.println(exchange.requestItem(line));
+            System.out.println(exchange.requestItem(line));
         }
     }
 }
