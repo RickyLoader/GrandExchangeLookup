@@ -16,7 +16,7 @@ public class ExchangeData {
     private static HashMap<Long, String> itemNames;
 
     public ExchangeData() {
-        fetchItems();
+        //fetchItems();
     }
 
     private static void fetchItems() {
